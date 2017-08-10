@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+ body{
+   background-image: url(Nature.jpg);
+   repeat: no repeat;
+   background-size: cover;
+ }
+ 
+ #text input[type= "text"]{
+ width: 400px;
+ height: 20px;
+ }
+
+#container{
+	margin: 0 auto;
+    width: 600px;
+	background-color: rgba(204, 255, 255,0.7);
+}
+
+#con{
+	margin: 0 ;   
+	background-color: rgba(204, 255, 255,0.7);
+}
+
+#header{	
+	background-color: rgba(102, 153, 255,0.9);
+	color: white;
+	text-align: center;
+}
+
+.btn1{
+	background-color:#0080ff;
+	border-radius:8px;
+	cursor:pointer;
+	color:#333333;
+	font-family:Times New Roman;
+}
+
+.btn {	
+	background-color:#0080ff;
+	border-radius:6px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:16px;
+	padding:8px 24px;
+}
